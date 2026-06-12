@@ -1,0 +1,126 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ThermoGuard banner">
+  <defs>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#170d0b"/>
+      <stop offset="0.7" stop-color="#371a10"/>
+      <stop offset="1" stop-color="#4a2113"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff4e2e" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ff4e2e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff6a3c"/>
+      <stop offset="1" stop-color="#d92e1c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="16" fill="url(#dusk)"/>
+
+  <!-- faint stars -->
+  <g fill="#ffd9b8">
+    <circle cx="120" cy="42" r="1.5" opacity="0.5"/>
+    <circle cx="248" cy="30" r="1.2" opacity="0.4"/>
+    <circle cx="385" cy="50" r="1.4" opacity="0.45"/>
+    <circle cx="480" cy="28" r="1.2" opacity="0.35"/>
+  </g>
+
+  <!-- setting sun behind the skyline -->
+  <circle cx="855" cy="268" r="170" fill="url(#sunGlow)"/>
+  <path d="M 770 270 A 85 85 0 0 1 940 270 Z" fill="url(#sun)"/>
+
+  <!-- wordmark and tagline -->
+  <text x="60" y="108" font-family="Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="54" font-weight="800" letter-spacing="0.5">
+    <tspan fill="#ffe3c2">Thermo</tspan><tspan fill="#ff6b3d">Guard</tspan>
+  </text>
+  <text x="63" y="148" font-family="Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="21" fill="#eab789">Heatwaves kill indoors, not outdoors.</text>
+  <text x="63" y="176" font-family="Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="21" fill="#eab789">Forecast every home,</text>
+  <text x="63" y="204" font-family="Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="21" fill="#eab789">reach the vulnerable first.</text>
+
+  <!-- street -->
+  <rect x="0" y="272" width="1200" height="48" fill="#1a0e0a"/>
+  <line x1="0" y1="272" x2="1200" y2="272" stroke="#0f0805" stroke-width="3"/>
+
+  <!-- ============ skyline: five archetypes, windows glow with indoor heat ============ -->
+
+  <!-- tall apartment block, 47 C -->
+  <rect x="540" y="112" width="92" height="160" fill="#231210"/>
+  <g fill="#ff5a3c" opacity="0.9">
+    <rect x="552" y="124" width="14" height="11"/><rect x="579" y="124" width="14" height="11"/><rect x="606" y="124" width="14" height="11"/>
+    <rect x="552" y="148" width="14" height="11"/><rect x="579" y="148" width="14" height="11"/><rect x="606" y="148" width="14" height="11"/>
+    <rect x="552" y="172" width="14" height="11"/><rect x="579" y="172" width="14" height="11"/><rect x="606" y="172" width="14" height="11"/>
+    <rect x="552" y="196" width="14" height="11"/><rect x="579" y="196" width="14" height="11"/><rect x="606" y="196" width="14" height="11"/>
+    <rect x="552" y="220" width="14" height="11"/><rect x="579" y="220" width="14" height="11"/><rect x="606" y="220" width="14" height="11"/>
+  </g>
+  <rect x="558" y="84" width="56" height="22" rx="11" fill="#c2410c"/>
+  <text x="586" y="100" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#fff">47 &#176;C</text>
+
+  <!-- mobile home, 38 C -->
+  <rect x="664" y="226" width="104" height="46" rx="6" fill="#241310"/>
+  <g fill="#ffd166" opacity="0.85">
+    <rect x="676" y="238" width="16" height="12"/><rect x="704" y="238" width="16" height="12"/><rect x="732" y="238" width="16" height="12"/>
+  </g>
+  <rect x="688" y="198" width="56" height="22" rx="11" fill="#a16207"/>
+  <text x="716" y="214" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#fff">38 &#176;C</text>
+
+  <!-- single family house, 41 C -->
+  <path d="M 794 272 L 794 218 L 829 192 L 864 218 L 864 272 Z" fill="#241310"/>
+  <g fill="#f59e0b" opacity="0.9">
+    <rect x="806" y="228" width="14" height="12"/><rect x="838" y="228" width="14" height="12"/>
+    <rect x="806" y="250" width="14" height="12"/>
+  </g>
+  <rect x="801" y="160" width="56" height="22" rx="11" fill="#b45309"/>
+  <text x="829" y="176" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#fff">41 &#176;C</text>
+
+  <!-- brick walk-up, 44 C -->
+  <rect x="888" y="158" width="96" height="114" fill="#231210"/>
+  <g fill="#ff8c42" opacity="0.9">
+    <rect x="900" y="170" width="14" height="11"/><rect x="929" y="170" width="14" height="11"/><rect x="958" y="170" width="14" height="11"/>
+    <rect x="900" y="196" width="14" height="11"/><rect x="929" y="196" width="14" height="11"/><rect x="958" y="196" width="14" height="11"/>
+    <rect x="900" y="222" width="14" height="11"/><rect x="929" y="222" width="14" height="11"/><rect x="958" y="222" width="14" height="11"/>
+  </g>
+  <rect x="908" y="130" width="56" height="22" rx="11" fill="#9a3412"/>
+  <text x="936" y="146" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#fff">44 &#176;C</text>
+
+  <!-- care home tower, 52 C: hottest, top floor lethal -->
+  <rect x="1010" y="78" width="106" height="194" fill="#231210"/>
+  <g fill="#ff8c42" opacity="0.9">
+    <rect x="1024" y="124" width="15" height="12"/><rect x="1054" y="124" width="15" height="12"/><rect x="1084" y="124" width="15" height="12"/>
+    <rect x="1024" y="152" width="15" height="12"/><rect x="1054" y="152" width="15" height="12"/><rect x="1084" y="152" width="15" height="12"/>
+    <rect x="1024" y="180" width="15" height="12"/><rect x="1054" y="180" width="15" height="12"/><rect x="1084" y="180" width="15" height="12"/>
+    <rect x="1024" y="208" width="15" height="12"/><rect x="1054" y="208" width="15" height="12"/><rect x="1084" y="208" width="15" height="12"/>
+    <rect x="1024" y="236" width="15" height="12"/><rect x="1054" y="236" width="15" height="12"/><rect x="1084" y="236" width="15" height="12"/>
+  </g>
+  <!-- top floor burning red -->
+  <g fill="#ff2f23">
+    <rect x="1024" y="94" width="15" height="12"/><rect x="1054" y="94" width="15" height="12"/><rect x="1084" y="94" width="15" height="12"/>
+  </g>
+  <rect x="1035" y="50" width="56" height="22" rx="11" fill="#b3001b"/>
+  <text x="1063" y="66" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#fff">52 &#176;C</text>
+
+  <!-- triage: cooling visits allocated to the two highest-risk buildings -->
+  <g>
+    <circle cx="586" cy="258" r="11" fill="#eaf7ff"/>
+    <g stroke="#1379a8" stroke-width="2" stroke-linecap="round">
+      <line x1="586" y1="251" x2="586" y2="265"/>
+      <line x1="579" y1="254.5" x2="593" y2="261.5"/>
+      <line x1="579" y1="261.5" x2="593" y2="254.5"/>
+    </g>
+    <circle cx="1063" cy="258" r="11" fill="#eaf7ff"/>
+    <g stroke="#1379a8" stroke-width="2" stroke-linecap="round">
+      <line x1="1063" y1="251" x2="1063" y2="265"/>
+      <line x1="1056" y1="254.5" x2="1070" y2="261.5"/>
+      <line x1="1056" y1="261.5" x2="1070" y2="254.5"/>
+    </g>
+  </g>
+  <text x="586" y="296" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#9ddcf0" letter-spacing="1">COOLING VISIT</text>
+  <text x="1063" y="296" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#9ddcf0" letter-spacing="1">COOLING VISIT</text>
+
+  <!-- footer -->
+  <text x="60" y="305" font-family="Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="12.5" fill="#c08560" letter-spacing="1">2R-2C TWIN &#183; PHYSICS + ML &#183; MORTALITY RISK &#183; EQUITY TRIAGE</text>
+</svg>
