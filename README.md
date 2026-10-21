@@ -68,14 +68,14 @@ make paper               # build paper/thermoguard.pdf
 | `experiments/triage.py`               | Lives-saved vs coverage tradeoff |
 | `scripts/make_figures.py`             | Build figures from results |
 | `paper/thermoguard.tex`               | Paper source |
-| `paper/figures/*.pdf`                 | Real figures from real data |
+| `paper/figures/*.pdf`                 | Figures generated from `results/*.json` |
 | `results/*.json`                      | Raw experiment records |
 
 ## Headline results
 
 | Experiment | Result |
 |---|---|
-| Indoor temp under PNW 2021 (low-income no-AC) | peaks at 44 °C (real epidemiology) |
+| Indoor temp under PNW 2021 (low-income no-AC) | peaks at 44 °C |
 | Indoor temp under PNW 2021 (care home top floor) | peaks at 52 °C (lethal) |
 | Forecast MAE physics vs ML vs hybrid (PNW, no-AC) | 0.40 / 1.94 / 0.54 °C |
 | Forecast MAE on Chicago 1995 (care home) | physics 2.07 → **hybrid 1.69** (humidity nonlinearity) |
@@ -84,7 +84,7 @@ make paper               # build paper/thermoguard.pdf
 | Greedy vs equity-aware lives saved (PNW, budget 80/160) | 5.43 vs 3.46 |
 | Min stratum coverage greedy vs equity-aware | **0.00 vs 0.11** |
 
-## Honest limitations
+## Limitations
 
 * **Synthetic ground truth.** Forecast accuracy uses the 2R-2C simulator
   as ground truth; real-world validation on Ecobee Donate-Your-Data or
